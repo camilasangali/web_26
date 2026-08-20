@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body>
+<h1>Formulário 2</h1>
+<form action="" method="post">
+     <label>
+        Nome do produto:
+        <br>
+        <input name="form_nome" type="text" placeholder="Digite o nome do produto" required>
+    </label>
+    <br>
+    <br>
+    <label>
+        Descrição:
+        <br>
+        <textarea name="form_descricao" rows="10" cols="13"></textarea>
+    </label>
+    <br>
+    <br>
+    <label>Qual a categoria do produto?</label>
+    <br>
+    <label> <input name="form_categoia" value="1" type="radio"> </label>
+    Eletrônico
+    <br>
+    <label> <input name="form_categoria" value="2" type="radio"> </label>
+    Livros
+    <br>
+    <label> <input name="form_categoria" value="3" type="radio"> </label>
+    Brinquedos
+    <br>
+    <label> <input name="form_categoria" value="4" type="radio"> </label>
+    Esportes
+    <br>
+    <label> <input name="form_categoria" value="5" type="radio"> </label>
+    Calçados
+    <br>
+    <br>
+      <label>
+        País de produção
+        <select name="form_pais">
+            <option value="china">China</option>
+            <option value="india">Índia</option>
+            <option value="brasil">Brasil</option>
+            <option value="estadosunidos">Estados Unidos</option>
+            <option value="portugal">Portugal</option>
+        </select>
+    </label>
+    <br>
+    <label>
+        <br>
+        Preço:
+        <input name="form_preco" type="number" placeholder="Digite o preço" required>
+    </label>
+    <br>
+     <br>
+        Data de fabricação:
+        <input name="form_data" type="date" placeholder="Digite a data" required>
+            <br>
+        </label>
+    <br>
+    <br>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+</body>
+</html>

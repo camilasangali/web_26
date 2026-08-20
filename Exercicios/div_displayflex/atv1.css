@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pai{
+    width: 100%;
+    height: 100vh;
+    background: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.filho{
+    background: azure;
+    width: 150px;
+    heigth: 50vh;
+    color: darkblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

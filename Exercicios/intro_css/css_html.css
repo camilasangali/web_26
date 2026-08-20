@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: firebrick;
+    text-align: center;
+}
+p {
+    color: aliceblue;
+    background-color: firebrick;
+    font-size: 36px;
+    font-family: Arial;
+}

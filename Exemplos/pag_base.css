@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 150px;
+    height: 50px;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 15px;
+    border: 3px solid darkblue;
+    margin-top: 15px;
+}
+
+p{
+    color: azure;
+    text-align: center;
+}
+
+h1{
+    color: darkblue;
+    text-align: center;
+
+.conteiner {
+    width: 100%;
+    border: none;
+    background-color: cornflowerblue;
+    border-radius: 0;
+    margin-top: 0;
+    text-align: center;
+}
