@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: azure;
+}
+a {text-decoration: none}
+
+.menu {
+    background: cornflowerblue;
+    width: 10%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: none;
+
+}
+
+
+.container {
+    background: lightblue;
+    height: 50px;
+    width: 90px;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    margin-top: 0;
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

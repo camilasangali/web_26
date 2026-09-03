@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: cornflowerblue;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+.menu {
+    background: cornflowerblue;
+    width: 100%;
+    min-height: 100vh;
+    padding: 40px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+    align-content: start;
+}
+
+
+.mes1, .mes2, .mes3, .mes4, .mes5, .mes6, .mes7, .mes8, .mes9, .mes10, .mes11, .mes12 {
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0px;
+}
+
+
+.mes1, .mes3, .mes5, .mes7, .mes8, .mes10, .mes12 {
+   background-color: steelblue;
+}
+
+.mes4, .mes6, .mes9, .mes11 {
+    background-color: deepskyblue;
+}
+
+.mes2 {
+    background-color: lightblue;
+}
